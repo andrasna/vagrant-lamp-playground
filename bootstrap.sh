@@ -8,7 +8,7 @@ DBPASSWD=root
 echo "=== Install Apache ==="
 
 apt-get install -y apache2
-ln -fs /vagrant/dev /var/www/html
+ln -fs /srv/www /var/www/html
 # Enable mod mode_rewrite
 sed -i "s/AllowOverride None/AllowOverride All/g" /etc/apache2/apache2.conf
 a2enmod rewrite
