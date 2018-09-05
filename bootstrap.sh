@@ -21,7 +21,7 @@ echo "=== Install PHP ==="
 
 add-apt-repository -y ppa:ondrej/php
 apt-get update
-apt-get -y install php7.1
+apt-get -y install php7.2
 
 echo "=== Install MySQL ==="
 
