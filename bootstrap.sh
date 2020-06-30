@@ -21,8 +21,8 @@ echo "=== Install PHP ==="
 
 add-apt-repository -y ppa:ondrej/php
 apt-get update
-apt-get -y install php7.2 php7.2-common php7.2-cli libapache2-mod-php7.2 php7.2-mbstring
-a2enmod php7.2
+apt-get -y install php7.4 php7.4-common php7.4-cli libapache2-mod-php7.4 php7.4-mbstring
+a2enmod php7.4
 apt-get purge php7.1*
 service apache2 restart
 
